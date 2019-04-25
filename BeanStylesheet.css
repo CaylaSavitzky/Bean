@@ -1,0 +1,64 @@
+:root{
+	--primairy-green:#6dc835;
+	--secondary-green:#8dc449;
+}
+
+.bg-black{
+	background-color: #000;
+}
+
+.bg-green{
+	background-color: var(--primairy-green);
+}
+
+.bg-green-two{
+	background-color: var(--secondary-green);
+}
+
+.text-green{
+	color: var(--primairy-green);
+}
+
+.text-green-two{
+	color: var(--secondary-green);
+}
+
+.border-custom-1-a{
+	transform: translateY(25%);
+	outline: 1px solid var(--secondary-green);
+	outline-offset: 10px;
+	position: relative;
+	bottom:50%;
+}
+
+.border-custom-1-b{
+	transform: translateY(25%) scale(.9,1.2);
+}
+
+.t-s-1{
+	font-size: .5em;
+}
+
+.f-s-2{
+	font-size: 1em;
+}
+
+.f-s-3{
+	font-size: 1.5em;
+}
+
+.f-s-4{
+	font-size: 2em;
+}
+
+.f-s-5{
+	font-size: 2.5em;
+}
+
+.f-s-6{
+	font-size: 3em;
+}
+
+.f-taller{
+
+}
